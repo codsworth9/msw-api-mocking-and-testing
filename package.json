@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{js,jsx,md,css}\""
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +38,8 @@
     ]
   },
   "devDependencies": {
-    "msw": "^0.27.1"
+    "msw": "^0.27.1",
+    "prettier": "^2.2.1"
   },
   "msw": {
     "workerDirectory": "public"
